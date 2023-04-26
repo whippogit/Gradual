@@ -1,8 +1,8 @@
-const url = "https://appwhippo.onrender.com/api";
+const url = "http://whippo.online/api/noticias";
 
 export async function getAllNews() {
   try {
-    const response = await fetch(`${url}/noticias`);
+    const response = await fetch(`${url}`);
     const data = await response.json();
     console.log(data.results);
     return data.results.reverse();
@@ -13,7 +13,7 @@ export async function getAllNews() {
 
 export async function getNewsById(id) {
   try {
-    const response = await fetch(`${url}/noticias/${id}`);
+    const response = await fetch(`${url}/${id}`);
     const peticion = await response.json();
     console.log(peticion.noticia);
     return peticion.noticia;
