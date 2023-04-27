@@ -75,9 +75,7 @@ function App() {
             </Routes>
           </Router>
         </div>
-        <div className="col-2 d-none d-sm-block">
-          <Alert alerts={alerts} />
-        </div>
+        <div className="col-2 d-none d-sm-block"></div>
       </div>
 
       <hr />
