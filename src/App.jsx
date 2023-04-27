@@ -1,6 +1,5 @@
 import "./App.css";
 import * as Api from "./services/News";
-import * as ApiAlert from "./services/Alerts";
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CardNews from "./component/CardNews";
@@ -9,9 +8,7 @@ import Head from "./component/Head";
 import NavBar from "./component/NavBar";
 import PageNotFound from "./component/PageNotFound";
 import Social from "./component/Social";
-import Alert from "./component/Alert";
 import Slider from "./component/Slider";
-import BannerBottom from "./component/BannerBottom";
 import Footer from "./component/Footer";
 import Copyright from "./component/Copyright";
 
@@ -21,13 +18,6 @@ function App() {
 
   useEffect(() => {
     Api.getAllNews().then(setNews);
-  }, []);
-
-  //Alerts
-  const [alerts, setAlerts] = useState([]);
-
-  useEffect(() => {
-    ApiAlert.getAllAlerts().then(setAlerts);
   }, []);
 
   const [search, setSearch] = useState([]);
