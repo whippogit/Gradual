@@ -69,7 +69,7 @@ function App() {
       </div>
 
       <hr />
-      <div className="bg-footer">
+      <div className="bg-dark">
         <Footer news={news} />
       </div>
       <div className="bg-dark text-light text-center txt-size">

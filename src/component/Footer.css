@@ -7,7 +7,7 @@
 }
 
 .img-logo-footer {
-    background-color: #f3eded;
+    filter: grayscale(60%);
     width: 50px;
     padding: 10px;
 }
