@@ -6,11 +6,12 @@ function Slider() {
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item active d-flex justify-content-center">
           <img
             src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1684015468/unnamed_uhzytk.jpg"
-            className="d-block w-100 rounded m-5"
+            className="d-block w-25 rounded m-5"
             alt="..."
+          
           />
         </div>
       </div>
