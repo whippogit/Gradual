@@ -65,7 +65,12 @@ function App() {
             </Routes>
           </Router>
         </div>
-        <div className="col-2 d-none d-sm-block"></div>
+        <div className="col-2 d-none d-sm-block">
+          <img
+            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1675546464/08_250x100_tnehld.gif"
+            alt=""
+          />
+        </div>
       </div>
 
       <hr />
