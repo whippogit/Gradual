@@ -41,7 +41,7 @@ function App() {
       <div className="fixed-top">
         <h1 className="container d-flex justify-content-between">
           <Head />
-          <Social />
+          
         </h1>
 
         <hr />
@@ -73,7 +73,7 @@ function App() {
         </div>
       </div>
 
-      <hr />
+      
       <div className="bg-dark">
         <Footer news={news} />
       </div>

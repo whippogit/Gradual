@@ -8,7 +8,7 @@ function Footer({ news }) {
         <a className="bg-dark d-flex justify-content-center">
           <img
             className="img-logo-footer bg-dark pb-5"
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1682809461/gradual-byn_trbtq2.png"
+            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698078979/gradual-1-0-light_vzpdpj.png"
             title="Corrientes Gradual"
           />
         </a>

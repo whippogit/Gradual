@@ -6,7 +6,7 @@ function Head() {
       <a href="/">
         <img
           className="logo"
-          src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1675546256/logo_f5unck.png"
+          src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698078698/gradual-1-0_qa02dr.png"
           title="Corrientes Gradual"
         />
       </a>
