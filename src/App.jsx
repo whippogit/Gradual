@@ -38,23 +38,21 @@ function App() {
 
   return (
     <div className="App">
-      <div className="fixed-top">
-        <h1 className="container d-flex justify-content-between">
+      <header className="fixed-top">
+        <div className="container d-flex justify-content-between">
           <Head />
-          
-        </h1>
-
+        </div>
         <hr />
-        <div className="container-fluid">
+        <div className="container">
           <NavBar handleSearch={handleSearch} />
         </div>
         <hr />
-      </div>
+      </header>
       <div className="container mtS">
         <Slider />
       </div>
 
-      <div className="row">
+      <main className="row">
         <div className="col-2 d-none d-sm-block"></div>
         <div className="col-7">
           <Router>
@@ -71,9 +69,8 @@ function App() {
             alt=""
           />
         </div>
-      </div>
+      </main>
 
-      
       <div className="bg-dark">
         <Footer news={news} />
       </div>
