@@ -35,7 +35,8 @@ a:hover {
   display: inline-block;
   margin: 10px;
   background-color: #f5f5f5;
-  width: 345px;
+  min-width: 340px;
+  max-width: 410px;
 }
 
 .cardContainer img {

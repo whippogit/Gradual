@@ -10,7 +10,7 @@ import PageNotFound from "./component/PageNotFound";
 import Social from "./component/Social";
 import Slider from "./component/Slider";
 import Footer from "./component/Footer";
-import Copyright from "./component/Copyright";
+
 
 function App() {
   //allNews
@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <header className="fixed-top">
-        <div className="container d-flex justify-content-between">
+        <div className="container">
           <Head />
         </div>
         <hr />
@@ -48,36 +48,23 @@ function App() {
         </div>
         <hr />
       </header>
-      <div className="container mtS">
+      <section className="container mtS">
         <Slider />
-      </div>
+      </section>
 
-      <main className="row">
-        <div className="col-2 d-none d-sm-block"></div>
-        <div className="col-7">
-          <Router>
-            <Routes>
-              <Route path="/" element={<CardNews news={results} />} />
-              <Route path="/noticias/:id" element={<PageDetails />} />
-              <Route path="*" element={<PageNotFound />} />
-            </Routes>
-          </Router>
-        </div>
-        <div className="col-2 d-none d-sm-block">
-          <img
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1675546464/08_250x100_tnehld.gif"
-            alt=""
-          />
-        </div>
+      <main className="container">
+        <Router>
+          <Routes>
+            <Route path="/" element={<CardNews news={results} />} />
+            <Route path="/noticias/:id" element={<PageDetails />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </Router>
       </main>
-
-      <div className="bg-dark">
+      <section className="bg-dark">
         <Footer news={news} />
+      </section>
       </div>
-      <div className="bg-dark text-light text-center txt-size">
-        <Copyright />
-      </div>
-    </div>
   );
 }
 

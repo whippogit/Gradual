@@ -17,19 +17,16 @@ function PageDetails() {
 
   return (
     <div className="container">
-      <p className="text-secondary text-decoration-underline">
+      <em className="text-secondary">
         {noticia.category}
-      </p>
-      <div className="text-center">
-        <img className="w-50 p-4" src={noticia.image_url} alt={noticia.title} />
+      </em>
+      <h4 className="mt-5 text-center text-decoration-underline">{noticia.title}</h4>
+      <div className="d-flex justify-content-center">
+        <img className="w-img" src={noticia.image_url} alt={noticia.title} />
       </div>
 
-      <hr />
-      <h1 className="text-start">{noticia.title}</h1>
-
-      <hr />
-      <p className="text-secondary fs-5 p-5">{noticia.description}</p>
-      <p className="lh-lg text-start fs-5 p-5 textoP">{noticia.content}</p>
+      <p className="mt-5"><strong>{noticia.description}</strong></p>
+      <p className="textoP">{noticia.content}</p>
     </div>
   );
 }

@@ -1,20 +1,11 @@
 function Slider() {
   return (
-    <div
-      id="carouselExampleSlidesOnly"
-      className="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div className="carousel-inner">
-        <div className="carousel-item active d-flex justify-content-center">
-          <img
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1675546463/banner-blanco_ffjvn1.jpg"
-            className="d-block w-100 rounded m-5"
-            alt="..."
-          
-          />
-        </div>
-      </div>
+    <div className="d-flex justify-content-center">
+      <img
+        src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1677775249/logo-corrientes_rzqz0i.png"
+        className="logo-gobierno rounded m-5 "
+        alt="..."
+      />
     </div>
   );
 }

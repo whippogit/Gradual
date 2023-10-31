@@ -2,13 +2,13 @@ import "./SocialFooter.css";
 
 function SocialFooter() {
   return (
-    <h3 className="bg-dark d-flex justify-content-center">
-      <div className="align-middle bg-dark">
-        <i className="bx bxl-facebook bg-dark"></i>
-        <i className="bx bxl-instagram bg-dark"></i>
-        <i className="bx bxl-twitter bg-dark"></i>
-        <i className="bx bxl-gmail bg-dark"></i>
-        <i className="bx bxl-youtube bg-dark"></i>
+    <h3 className="d-flex justify-content-center">
+      <div className="align-middle">
+        <i className="bx bxl-facebook"></i>
+        <i className="bx bxl-instagram"></i>
+        <i className="bx bxl-twitter"></i>
+        <i className="bx bxl-gmail"></i>
+        <i className="bx bxl-youtube"></i>
       </div>
     </h3>
   );
