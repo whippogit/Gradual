@@ -1,16 +1,14 @@
-import "./SocialFooter.css";
-
 function SocialFooter() {
   return (
-    <h3 className="d-flex justify-content-center">
-      <div className="align-middle">
-        <i className="bx bxl-facebook"></i>
-        <i className="bx bxl-instagram"></i>
-        <i className="bx bxl-twitter"></i>
-        <i className="bx bxl-gmail"></i>
-        <i className="bx bxl-youtube"></i>
+    <div className="d-flex justify-content-center">
+      <div>
+        <i className="fa-brands fa-facebook text-white fs-5 me-2"></i>
+        <i className="fa-brands fa-instagram text-white fs-5 me-2"></i>
+        <i class="fa-brands fa-x-twitter text-white fs-5 me-2"></i>
+        <i className="fa-brands fa-gmail text-white fs-5 "></i>
+        <i className="fa-brands fa-youtube text-white fs-5 "></i>
       </div>
-    </h3>
+    </div>
   );
 }
 

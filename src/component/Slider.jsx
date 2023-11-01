@@ -4,7 +4,8 @@ function Slider() {
       <img
         src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1677775249/logo-corrientes_rzqz0i.png"
         className="logo-gobierno rounded m-5 "
-        alt="..."
+        alt="Corrientes somos todos"
+        title="Corrientes somos todos"
       />
     </div>
   );

@@ -7,10 +7,8 @@ import PageDetails from "./component/PageDetails";
 import Head from "./component/Head";
 import NavBar from "./component/NavBar";
 import PageNotFound from "./component/PageNotFound";
-import Social from "./component/Social";
 import Slider from "./component/Slider";
 import Footer from "./component/Footer";
-
 
 function App() {
   //allNews
@@ -51,7 +49,6 @@ function App() {
       <section className="container mtS">
         <Slider />
       </section>
-
       <main className="container">
         <Router>
           <Routes>
@@ -64,7 +61,7 @@ function App() {
       <section className="bg-dark">
         <Footer news={news} />
       </section>
-      </div>
+    </div>
   );
 }
 
