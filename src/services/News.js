@@ -1,4 +1,4 @@
-const url = "https://whippo.online/api/noticias";
+const url = "https://whippo-eq6x.onrender.com/api/noticias";
 
 export async function getAllNews() {
   try {
