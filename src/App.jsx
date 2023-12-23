@@ -57,6 +57,9 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Router>
+        <div className="container d-flex justify-content-center mb-3">
+          <img src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1678742353/redes_gob_750x250px_dloaac.gif" alt="Gobierno de Corrientes"title="Gobierno de Corrientes" className="logo-gobierno"/>
+        </div>
       </main>
       <section className="bg-dark">
         <Footer news={news} />
